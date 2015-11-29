@@ -11,6 +11,7 @@ An audiobook hardware project for the Little Open Library
 * Power supply
 * Misc hardware, wires, etc.
 
+##Description
 The handset is a NOS payphone handset.  The speaker ("receiver" in telephone vernacular) is about 30 ohms and connected to the two white leads that come out of the armored cable.  Some quick tests show that the built-in analog audio output of the Raspberry Pi Model B (original) can drive this speaker directly.
 
 The handset hook is a custom 3D printed part.  It will need to incorporate a switch connected to the GPIO on the Raspberry Pi to control the audio playback software.  The model for this part is a work in progress...
