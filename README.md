@@ -10,7 +10,7 @@ Stop by the little library, sit down on the stump-seat, pick up the handset and 
 ![Photo of first prototype](https://raw.githubusercontent.com/jjg/storyphone/master/prototype1.jpg)
 
 ##Components
-* Telephone handset
+* Payphone handset
 * Telephone handset hook
 * Momentary switch
 * 10k resistor
