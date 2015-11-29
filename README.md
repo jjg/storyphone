@@ -6,6 +6,9 @@ An audiobook hardware project for the Little Open Library
 
 Stop by the little library, sit down on the stump-seat, pick up the handset and listen to a story.
 
+##Initial Prototype
+![](https://?)
+
 ##Components
 * Telephone handset
 * Telephone handset hook
