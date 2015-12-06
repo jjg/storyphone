@@ -11,7 +11,7 @@ Stop by the little library, sit down on the stump-seat, pick up the handset and 
 
 ##Components
 * Payphone handset
-* Telephone handset hook
+* Telephone handset hook (https://www.tinkercad.com/things/jDHRsawEVTZ-storyphone-hook)
 * Momentary switch
 * 10k resistor
 * Raspberry Pi 
@@ -30,3 +30,10 @@ A momentary pushbutton switch is connected to `GPIO #1` and `GND`.  A 10 ohm pul
 The controller code is written in Python and based on https://learn.adafruit.com/playing-sounds-and-using-buttons-with-raspberry-pi/overview  The code is modified to use `subprocess.Popen()` so we can stop & restart playback when the hook switch is toggled.
 
 Currently when the momentary switch is toggled, playback begins.  If playback is in-progress, toggling the switch will stop playback.  Once the hook is working this behavior will be modified to fit the appropriate on and off-hook states of the switch (I'm not sure yet if on hook will place the switch in the "closed" or "open" position).
+
+## Dev Journal
+
+###12062015
+Original hook design was done in OpenSCAD but I wasn't getting what I wanted out of it and decided to give it a go in Tinkercad.  I prefer OpenSCAD but since it's not a parametric design it's not a big deal.
+
+
