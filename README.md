@@ -12,7 +12,7 @@ Stop by the little library, sit down on the stump-seat, pick up the handset and 
 ##Components
 * Payphone handset
 * Telephone handset hook (https://www.tinkercad.com/things/jDHRsawEVTZ-storyphone-hook)
-* Momentary switch
+* Momentary switch (Cherry D45X)
 * 10k resistor
 * Raspberry Pi 
 * Power supply
