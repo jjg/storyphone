@@ -6,8 +6,8 @@ An audiobook hardware project for the Little Open Library
 
 Stop by the little library, sit down on the stump-seat, pick up the handset and listen to a story.
 
-##Initial Prototype
-![Photo of first prototype](https://raw.githubusercontent.com/jjg/storyphone/master/images/prototype1.jpg)
+##Current Prototype
+![Photo of prototype](https://raw.githubusercontent.com/jjg/storyphone/master/images/storyphone_hook_v5_640.jpg)
 
 ##Components
 * Payphone handset
