@@ -7,7 +7,7 @@ An audiobook hardware project for the Little Open Library
 Stop by the little library, sit down on the stump-seat, pick up the handset and listen to a story.
 
 ##Initial Prototype
-![Photo of first prototype](https://raw.githubusercontent.com/jjg/storyphone/master/prototype1.jpg)
+![Photo of first prototype](https://raw.githubusercontent.com/jjg/storyphone/master/images/prototype1.jpg)
 
 ##Components
 * Payphone handset
@@ -32,6 +32,13 @@ The controller code is written in Python and based on https://learn.adafruit.com
 Currently when the momentary switch is toggled, playback begins.  If playback is in-progress, toggling the switch will stop playback.  Once the hook is working this behavior will be modified to fit the appropriate on and off-hook states of the switch (I'm not sure yet if on hook will place the switch in the "closed" or "open" position).
 
 ## Dev Journal
+
+###12132015
+Re-organized repository
+
+New hood model works and incorporates microswitch.  This design works and actuates the switch correctly, but doesn't provide any protection so it needs more work before it's ready for outdoor use.
+
+Modified the code so that playback begins from the beginning of the file when the hook switch is open, stops when it's closed.
 
 ###12062015
 Original hook design was done in OpenSCAD but I wasn't getting what I wanted out of it and decided to give it a go in Tinkercad.  I prefer OpenSCAD but since it's not a parametric design it's not a big deal.
