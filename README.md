@@ -27,9 +27,10 @@ The Raspberry Pi used in this project is an old Model B, any model with built-in
 
 A momentary pushbutton switch is connected to `GPIO #1` and `GND`.  A 10 ohm pull-up resistor is connected between `GPIO #1` and `3.3v`.  `GPIO #1` was selected only because it was convenient for the connectors I had on-hand, a pin that isn't otherwise used (`GPIO #1` is also the `SCL` pin) would be a better choice.
 
-The controller code is written in Python and based on https://learn.adafruit.com/playing-sounds-and-using-buttons-with-raspberry-pi/overview  The code is modified to use `subprocess.Popen()` so we can stop & restart playback when the hook switch is toggled.
+The controller code is written in Python and based on https://learn.adafruit.com/playing-sounds-and-using-buttons-with-raspberry-pi/overview  The code is modified to use `subprocess.Popen()` so we can stop & restart playback when the hook switch is activated.
 
-Currently when the momentary switch is toggled, playback begins.  If playback is in-progress, toggling the switch will stop playback.  Once the hook is working this behavior will be modified to fit the appropriate on and off-hook states of the switch (I'm not sure yet if on hook will place the switch in the "closed" or "open" position).
+When the momentary switch is open, playback begins.  When the switch is closed, playback stops.
+
 
 ## Dev Journal
 
