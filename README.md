@@ -34,6 +34,9 @@ When the momentary switch is open, playback begins.  When the switch is closed, 
 
 ## Dev Journal
 
+###12172015
+Created a project over at hackaday.io to track progress.  Source and design files will stay here, but further project updates will be posted at https://hackaday.io/project/8841-storyphone.
+
 ###12132015
 Re-organized repository
 
