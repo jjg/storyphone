@@ -1,7 +1,23 @@
 difference(){
+    translate([3,30,-10]){
+        cube([64,10,40]);
+    }
+    
+    // switch lever opening
+    translate([25,10,-15]){
+        cube([20,40,15]);
+    }
+}
+
+// switch lever
+translate([26,10,-10]){
+    cube([18,40,8]);
+}
+    
+difference(){
 
 	cube([70,40,20]);
-
+    
 	// shape inside of hook
 	translate([35,20,-1]){
 		difference(){
@@ -32,7 +48,7 @@ difference(){
     translate([20,39,5]){
         rotate([90,0,180]){
             linear_extrude(height=5){
-                #text("V7");
+                text("V8");
             }
         }
     }
