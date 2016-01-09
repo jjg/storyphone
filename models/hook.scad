@@ -27,4 +27,13 @@ difference(){
 			}
 		}
 	}
+    
+    // version
+    translate([20,39,5]){
+        rotate([90,0,180]){
+            linear_extrude(height=5){
+                #text("V7");
+            }
+        }
+    }
 }
