@@ -11,7 +11,7 @@ difference(){
 
 // switch lever
 translate([26,10,-10]){
-    cube([18,40,8]);
+    //cube([18,40,8]);
 }
     
 difference(){
